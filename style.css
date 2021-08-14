@@ -1,0 +1,21 @@
+body{
+background-color:blue;
+}
+
+button{
+background-color:black;
+color:white;
+width:200px;
+height:50;
+}
+
+canvas{
+    animation-name:Carmen;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    }
+    
+    @keyframes Carmen{
+    from{box-shadow:1px 1px 38px red;}
+    to{box-shadow:1px 1px 38px black;}
+    }
